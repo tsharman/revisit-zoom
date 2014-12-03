@@ -1,0 +1,26 @@
+{
+    "name": "revisit-zoom",
+    "version": "1.3.1",
+    "description": "revisit.link service for zooming in",
+    "main": "index.js",
+    "engines": {
+        "node": "0.10.30",
+        "npm": "^1.4.0"
+    },
+    "scripts": {
+        "start": "forever index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "not yet"
+    },
+    "author": "Torehan Sharman <torehan7@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.6.5",
+        "data-uri-to-buffer": "0.0.3",
+        "express": "^4.8.5",
+        "forever": "^0.11.1",
+        "writegif": "^1.1.0"
+    }
+}
